@@ -124,10 +124,6 @@ nav {
     width: 450px;
     padding-top: 20px;
     padding-bottom: 20px;
-    align-self: stretch;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
 }
 
 #about p {
@@ -401,14 +397,6 @@ footer a {
         display: none;
     }
 
-    #about .about-me {
-        flex-basis: 100%;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
-        align-items: stretch;
-    }
-
     #about .about-me p {
         flex-basis: 40%;
 
@@ -456,7 +444,6 @@ footer a {
     
     .siema {
         display: block;
-        height: 400px;
     }
 
     #skills .item {
@@ -541,4 +528,5 @@ footer a {
     footer {
         display: block;
     }
+
 }
